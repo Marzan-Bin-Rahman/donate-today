@@ -51,7 +51,7 @@ font-family: 'Poppins', sans-serif;
      margin-bottom: 30px;
 }
 
-#header .container a {
+a {
      text-decoration: none;
      color: #ffffff;
      font-family: 'Inter', sans-serif;
@@ -60,3 +60,62 @@ font-family: 'Poppins', sans-serif;
      border-radius: 5px;
 }
 
+/* styling the donate today */
+
+#donate-today {
+     margin-top: 130px;
+}
+
+#donate-today .container h2 {
+     font-size: 45px;
+     line-height: 54px;
+     text-align: center;
+     font-family: 'Inter', sans-serif;
+     color: #121212;
+     margin-bottom: 20px;
+}
+
+#donate-today .container p {
+     font-size: 18px;
+     line-height: 28px;
+     font-weight: 400;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     color: #707070;
+     margin-bottom: 50px;
+}
+
+#donate-today .container #amount-container {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 60px;
+}
+
+#donate-today .container #amount-container h3 {
+     font-size: 30px;
+     text-align: center;
+     font-family: 'Inter', sans-serif;
+     color: #707070;
+     background-color: 
+     #FAFAFA;
+     padding: 45px 25px;
+     border-radius: 5px;
+     margin: 0 22px;
+}
+
+#donate-today .container #amount-container #highlighted{
+     color: #FF5959;
+     background: #FFEEEE;
+     border: 2px solid #FF5959;
+}
+
+#donate-today .container input{
+     width: 60%;
+     outline: none;
+     border: none;
+     border-bottom: 1px solid #DADADA;
+     text-align: center;
+     color: #B3B3B3;
+     font-family: 'Poppins', sans-serif;
+     margin-bottom: 30px;
+}
