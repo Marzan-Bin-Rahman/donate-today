@@ -2,27 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lobster&family=Poppins&display=swap');
 
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Poppins', sans-serif;
-*/
+/* global styles */
 
 * {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-}
-
-/* styling the header */
-
-#header {
-     width: 100%;
-     height: 100vh;
-     background-image: url(/assets/images/donation13.jpg);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
 }
 
 .container {
@@ -34,23 +19,6 @@ font-family: 'Poppins', sans-serif;
      text-align: center;
 }
 
-#header .container h1 {
-     font-size: 65px;
-     color: #ffffff;
-     font-family: 'Inter', sans-serif;
-     margin-bottom: 20px;
-     line-height: 79px;
-}
-
-#header .container p {
-     font-size: 18px;
-     font-family: 'Inter', sans-serif;
-
-     line-height: 28px;
-     color: #ffffff;
-     margin-bottom: 30px;
-}
-
 a {
      text-decoration: none;
      color: #ffffff;
@@ -58,13 +26,6 @@ a {
      padding: 16px 12px;
      background-color: #FF5959;
      border-radius: 5px;
-}
-
-/* styling the donate today */
-
-#donate-today {
-     margin-top: 100px;
-     height: fit-content;
 }
 
 h1 {
@@ -90,12 +51,43 @@ h4 {
 
 p {
      font-size: 18px;
-     line-height: 28px;
      font-weight: 400;
      text-align: center;
      font-family: 'Poppins', sans-serif;
      color: #707070;
      margin-bottom: 50px;
+}
+
+/* styling the header */
+
+#header {
+     width: 100%;
+     height: 100vh;
+     background-image: url(/assets/images/donation13.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#header .container h1 {
+     font-size: 65px;
+     color: #ffffff;
+     font-family: 'Inter', sans-serif;
+     margin-bottom: 20px;
+}
+
+#header .container p {
+     font-size: 18px;
+     font-family: 'Inter', sans-serif;
+     color: #ffffff;
+     margin-bottom: 30px;
+}
+
+/* styling the donate today */
+
+#donate-today {
+     margin-top: 100px;
+     height: fit-content;
 }
 
 #donate-today .container #amount-container {
@@ -109,8 +101,7 @@ p {
      text-align: center;
      font-family: 'Inter', sans-serif;
      color: #707070;
-     background-color:
-          #FAFAFA;
+     background-color: #FAFAFA;
      padding: 45px 25px;
      border-radius: 5px;
      margin: 0 22px;
