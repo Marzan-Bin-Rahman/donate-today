@@ -158,3 +158,26 @@ p {
 #our-donation .container #card-container #card-3{
      background: rgba(166, 138, 79, 0.1);
 }
+
+/* styling about us */
+
+#about-us{
+     margin-top: 130px;
+}
+
+#about-us .container #our-information{
+     display: flex;
+     margin: 50px;
+}
+
+#about-us .container #our-information div{
+     width: 50%;
+     margin: 0 30px;
+}
+
+#about-us .container #our-information div img{
+     width: 80%;
+     border-radius: 10px;
+     border-bottom-left-radius: 25%;
+     border-top-right-radius: 25%;
+}
